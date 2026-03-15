@@ -1,0 +1,47 @@
+{
+  "name": "@zakkster/lite-gen",
+  "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
+  "version": "1.0.1",
+  "description": "Generative art toolkit — simplex noise, flow fields, procedural shapes, OKLCH gradients, deterministic output.",
+  "type": "module",
+  "main": "gen.js",
+  "types": "gen.d.ts",
+  "exports": {
+    ".": {
+      "types": "./GenEngine.d.ts",
+      "import": "./GenEngine.js",
+      "default": "./GenEngine.js"
+    }
+  },
+  "files": [
+    "GenEngine.js",
+    "GenEngine.d.ts",
+    "README.md"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@zakkster/lite-random": "^1.0.0",
+    "@zakkster/lite-color": "^1.0.0",
+    "@zakkster/lite-lerp": "^1.0.0"
+  },
+  "homepage": "https://github.com/PeshoVurtoleta/-zakkster-lite-gen#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeshoVurtoleta/-zakkster-lite-gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PeshoVurtoleta/-zakkster-lite-gen/issues",
+    "email": "shinikchiev@yahoo.com"
+  },
+  "keywords": [
+    "generative-art",
+    "simplex",
+    "noise",
+    "flow-field",
+    "poisson-disk",
+    "canvas",
+    "creative-coding",
+    "deterministic",
+    "oklch"
+  ]
+}
