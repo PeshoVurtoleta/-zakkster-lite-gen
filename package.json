@@ -1,7 +1,7 @@
 {
   "name": "@zakkster/lite-gen",
   "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generative art toolkit — simplex noise, flow fields, procedural shapes, OKLCH gradients, deterministic output.",
   "type": "module",
   "main": "gen.js",
@@ -24,13 +24,13 @@
     "@zakkster/lite-color": "^1.0.0",
     "@zakkster/lite-lerp": "^1.0.0"
   },
-  "homepage": "https://github.com/PeshoVurtoleta/-zakkster-lite-gen#readme",
+  "homepage": "https://github.com/PeshoVurtoleta/lite-gen#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PeshoVurtoleta/-zakkster-lite-gen.git"
+    "url": "git+https://github.com/PeshoVurtoleta/lite-gen.git"
   },
   "bugs": {
-    "url": "https://github.com/PeshoVurtoleta/-zakkster-lite-gen/issues",
+    "url": "https://github.com/PeshoVurtoleta/lite-gen/issues",
     "email": "shinikchiev@yahoo.com"
   },
   "keywords": [
