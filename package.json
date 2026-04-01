@@ -1,7 +1,7 @@
 {
   "name": "@zakkster/lite-gen",
   "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generative art toolkit — simplex noise, flow fields, procedural shapes, OKLCH gradients, deterministic output.",
   "type": "module",
   "main": "gen.js",
@@ -16,6 +16,7 @@
   "files": [
     "GenEngine.js",
     "GenEngine.d.ts",
+    "llms.txt",
     "README.md"
   ],
   "license": "MIT",
